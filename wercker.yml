@@ -2,7 +2,7 @@ box: node:latest
 build:
   steps:
     - npm-install
-    - script
+    - script:
         name: build app
         code: |
           yarn build
